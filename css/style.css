@@ -31,7 +31,9 @@
     max-width: 1513px;
     width: 90%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
+    column-gap: 24px;
     align-items: center;
     margin: 0 auto;
     font-size: 24px;
@@ -40,16 +42,17 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    column-gap: 24px;
 }
 .ul-item li:hover{
     padding: 19px 0;
     border-bottom: #FF7420 solid 3px;
-
 }
 
+
 .nav-item{
-    max-width: 505px;
-    width: 30%;
+    width: 505px;
+    
 
 }
 .header-div-inside h2{
@@ -65,4 +68,74 @@
     color: white;
     display: none;
     font-size: 40px;
+}
+
+/* 1st Section */
+.wraper01{
+    background-image: url('../img/first.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    max-width: 1728px;
+    width: 100%;
+    height: 936px;  
+    padding-left: 112px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.box1,
+.box2{
+    width: 246px;
+    height: 66px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box1{
+    background-color: #FF7420;
+    color: white;
+    column-gap: 10px;
+}
+.box2{
+    background-color: white;
+    color: black;
+}
+.text-box{
+    color: white;
+    max-width: 587px;
+    width: 35%;
+}
+.text-box h3{
+    font-size: 64px;
+}
+.text-box p{
+    font-size: 20px;
+    margin-top: 24px;
+    margin-bottom: 85px;
+}
+.buttons2{
+    display: flex;
+    column-gap: 24px;
+}
+
+/* 2nd Section */
+.wraper02{
+    max-width: 1728px;
+    width: 100%;
+    background-color:#FF7420 ;
+    padding-top: 54px;
+    padding-bottom: 55px;
+}
+.second-ul{
+    display:flex;
+    column-gap: 24px;
+}
+.upper-div{
+    max-width: 1318px;
+    width: 83%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
 }

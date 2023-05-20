@@ -1,5 +1,7 @@
 @media(max-width:1024px){
-    
+    .ul-item{
+        column-gap: 10px;
+    }
 }
 @media(max-width:744px){
     .fa-solid.fa-bars{
@@ -8,4 +10,13 @@
     .nav-item{
         display: none;
     }
+    .buttons2{
+        flex-direction: column;
+        row-gap: 24px;
+    }
+    .wraper01{
+        padding-left: 0;
+        align-items: center;
+    }
 }
+
