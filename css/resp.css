@@ -2,6 +2,14 @@
     .ul-item{
         column-gap: 10px;
     }
+    .container-box{
+        height: 400px;
+    }
+    .upper-div{
+        flex-wrap: wrap;
+        row-gap: 19px;
+    }
+
 }
 @media(max-width:744px){
     .fa-solid.fa-bars{
@@ -17,6 +25,18 @@
     .wraper01{
         padding-left: 0;
         align-items: center;
+    }
+    .container{
+        flex-direction: column;
+        row-gap: 19px;
+        align-items: center;
+    }
+    .second-ul{
+        flex-wrap: wrap;
+        row-gap: 19px;
+    }
+    .container-box{
+        width: 90%;
     }
 }
 
