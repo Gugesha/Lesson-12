@@ -218,8 +218,76 @@
 }
 .request{
     max-width: 963px;
-    height: 661px;
+    min-height: 661px;
     border-radius: 15px;
     background-color: #FF7420;
     padding: 47px 58px;
+}
+
+/* FORM */
+.form01{
+    width: 100%;
+    height: 76px;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 18px;
+}
+.format{
+    max-width: 856px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 18px;
+}
+.regular{
+    border: none;
+    border-radius: 15px;
+    max-width: 419px;
+    width: 100%;
+    height: 76px;
+    padding: 23px 59px 23px 65px;
+    font-size: 20px;
+}
+
+.textarea-div{
+    /* max-width: 856px; */
+    width: 100%;
+    height: 148px;
+    border-radius: 15px;
+    border: none;
+    padding-top: 23px;
+    padding-left: 64px;
+    font-size: 20px;  
+}
+.btn{
+    /* max-width: 856px; */
+    width: 100%;
+    height: 76px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+.request p{
+    padding-top: 24px;
+    padding-bottom: 18px;
+    font-size: 20px;
+}
+
+
+.contact-div{
+    max-width: 499px;
+    width: 90%;
+    height: 611px;
+    background-color: #FF7420;
+    border-radius:15px ;
+}
+.orange{
+    display: flex;
+    column-gap: 41px;
+    margin: 0 auto;
 }
